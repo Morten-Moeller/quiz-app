@@ -3,6 +3,10 @@
   row-gap: 16px;
   justify-content: center;
   grid-template-columns: 16px min(40ch, calc(100% - 32px)) 16px;
+  grid-template-rows: 0 auto auto auto auto;
+  border: black 2px solid;
+  margin-top: 16px;
+  border-radius: 5px;
 }
 
 .quiz-card > * {
@@ -11,8 +15,8 @@
 
 .quiz-card__flag {
   position: relative;
-  top: 40px;
-  left: 270px;
+  top: -25px;
+  left: 250px;
   width: 40px;
   height: 60px;
   z-index: 10;
@@ -40,6 +44,7 @@
   width: 18ch;
   border-radius: 10px;
   justify-self: center;
+  box-shadow: 1px 3px 5px black;
 }
 
 .quiz-card__tag-list {
@@ -51,10 +56,11 @@
 
 .quiz-card__tag-list > li {
   font-weight: 300;
+  font-size: 0.75rem;
   background: var(--bg-color-secondary);
   color: var(--color-primary);
   list-style: none;
   border-radius: 7px;
-  padding: 1px 5px;
+  padding: 2px 7px;
   box-shadow: 1px 3px 5px black;
 }

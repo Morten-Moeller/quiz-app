@@ -1,12 +1,6 @@
-.app-header {
+.app-footer {
   background: var(--color-primary);
   color: var(--color-white);
   padding: 12px;
   grid-column: 1 / -1;
-}
-
-.app-header__heading {
-  font-weight: 400;
-  font-size: 1.2rem;
-  text-align: center;
 }
