@@ -2,7 +2,7 @@
   border-radius: 5px;
   border: black 2px solid;
   display: grid;
-  grid-template-columns: 16px min(40ch, calc(100% - 32px)) 16px;
+  padding: 16px;
   justify-content: center;
   margin-top: 16px;
   position: relative;
@@ -28,10 +28,13 @@
   top: -25px;
   width: 40px;
   z-index: 10;
+  fill: #fff;
+  stroke-miterlimit: 10;
+  stroke: #000;
 }
 
 .quiz-card__flag--style-svg {
-  fill: #fff;
+  fill: rgb(212, 69, 69);
   stroke-miterlimit: 10;
   stroke: #000;
 }
