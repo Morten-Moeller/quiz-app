@@ -2,19 +2,22 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Quiz App</title>
-    <link rel="icon" type="image/png" href="assets/favicon.png" />
     <link rel="stylesheet" href="styles/styles.css" />
+    <title>Bookmarks</title>
   </head>
   <body class="app-body">
     <header class="app-header">
-      <h1 class="app-header__heading">Quiz App</h1>
+      <h1 class="app-header__heading">Bookmarks</h1>
     </header>
+
     <main class="mt-10 main-app">
       <section class="quiz-card">
         <svg
           class="quiz-card__flag"
+          aria-label="Add bookmark"
+          role="button"
           version="1.1"
           xmlns="http://www.w3.org/2000/svg"
           xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -24,15 +27,14 @@
           xml:space="preserve"
         >
           <polygon
-            class="quiz-card__flag"
+            class="quiz-card__flag--style-svg"
             points="9.18,15.6 9.18,59.46 23.28,45.37 37.79,59.87 37.79,15.6 "
           />
         </svg>
         <h2 class="quiz-card__heading">Quiz Card</h2>
         <p class="quiz-card__text">
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Est ducimus
-          laboriosam voluptatem adipisci expedita unde ullam. Praesentium, hic
-          quae deserunt perferendis beatae quam repudiandae ea est
+          laboriosam
         </p>
         <button class="quiz-card__button">Show answer here!</button>
         <p class="quiz-card__text hidden">
@@ -48,9 +50,12 @@
           <li>Item04</li>
         </ul>
       </section>
+
       <section class="quiz-card">
         <svg
           class="quiz-card__flag"
+          aria-label="Add bookmark"
+          role="button"
           version="1.1"
           xmlns="http://www.w3.org/2000/svg"
           xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -60,7 +65,7 @@
           xml:space="preserve"
         >
           <polygon
-            class="quiz-card__flag"
+            class="quiz-card__flag--style-svg"
             points="9.18,15.6 9.18,59.46 23.28,45.37 37.79,59.87 37.79,15.6 "
           />
         </svg>
@@ -84,6 +89,7 @@
         </ul>
       </section>
     </main>
+
     <footer class="app-footer">
       <nav class="app-footer__nav">
         <a href="./index.html"
