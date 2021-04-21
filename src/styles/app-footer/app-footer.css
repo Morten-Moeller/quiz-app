@@ -9,8 +9,27 @@
   justify-content: space-evenly;
 }
 
-.app-footer__image {
+.app-footer__svg {
   height: 50px;
   padding-top: 5px;
   width: 50px;
+}
+
+.app-footer__icon-color {
+  /* SVG icon colores */
+  fill: #fff;
+  stroke: #1d1d1b;
+  stroke-miterlimit: 10;
+}
+
+.app-footer__svg--active {
+  fill: rgb(212, 69, 69);
+  stroke: #1d1d1b;
+  stroke-miterlimit: 10;
+}
+
+.st3 {
+  fill: rgb(212, 69, 69);
+  stroke: #1d1d1b;
+  stroke-miterlimit: 10;
 }
