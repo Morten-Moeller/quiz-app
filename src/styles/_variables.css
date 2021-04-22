@@ -3,4 +3,5 @@
   --color-black: #111;
   --color-primary: #333;
   --bg-color-secondary: goldenrod;
+  --bg-color-gradient: linear-gradient(170deg, #f6d365 0%, #fdbf85 100%);
 }

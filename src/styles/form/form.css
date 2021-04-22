@@ -10,3 +10,9 @@
 .form__textarea {
   margin-bottom: 16px;
 }
+
+.form__button {
+  width: 8ch;
+  justify-self: center;
+  margin-top: 16px;
+}
