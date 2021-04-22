@@ -18,7 +18,7 @@
 
 .profile__button {
   grid-column: 1 / -1;
-  width: 8ch;
+  width: 9ch;
   justify-self: center;
   margin-top: 16px;
 }
