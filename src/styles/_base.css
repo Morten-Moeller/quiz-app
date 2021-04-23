@@ -13,9 +13,6 @@
   display: grid;
   grid-template-columns: 1fr min(40ch, calc(100% - 32px)) 1fr;
   grid-template-rows: 48px auto 72px;
-  position: fixed;
-  top: 0;
-  left: 0;
 }
 
 .app-body > * {
@@ -28,20 +25,6 @@
   grid-auto-flow: row;
   row-gap: 16px;
   height: auto;
-}
-
-.main-app > *:last-child {
-  position: relative;
-}
-
-.main-app > *:last-child::after {
-  content: '';
-  display: block;
-  position: absolute;
-  top: 100%;
-  left: 0;
-  width: 100%;
-  height: 1px;
 }
 
 h1,
