@@ -12,46 +12,52 @@
       <h1 class="app-header__heading">Create quiz card</h1>
     </header>
 
-    <main class="mt-10 main-app">
+    <main class="main-app">
       <form class="form" action="">
         <fieldset class="form__fieldset">
-          <label class="form__question" for="new-question"
-            >Add new question</label
-          >
-          <textarea
-            class="form__textarea"
-            id="new-question"
-            name="new-question"
-            rows="5"
-            cols="33"
-          ></textarea>
+          <label class="form__question"
+            >Add new question
+            <textarea
+              class="form__textarea"
+              name="new-question"
+              rows="5"
+              cols="33"
+              required
+            ></textarea>
+          </label>
 
-          <label for="new-answer">Add new answer </label>
-          <textarea
-            class="form__textarea"
-            id="new-answer"
-            name="new-answer"
-            rows="5"
-            cols="33"
-          ></textarea>
+          <label
+            >Add new answer
+            <textarea
+              class="form__textarea"
+              name="new-answer"
+              rows="5"
+              cols="33"
+              required
+            ></textarea>
+          </label>
 
           <label for="input-tags">Add tags</label>
           <input
+            id="input-tags"
             class="form__textarea"
             type="text"
-            id="input-tags"
             name="input-tags"
+            required
           />
+          <button
+            class="form__button button-style"
+            aria-label="Submit new quiz card"
+          >
+            Submit
+          </button>
         </fieldset>
-        <button class="form__button" aria-label="Submit new quiz card">
-          Submit
-        </button>
       </form>
     </main>
 
     <footer class="app-footer">
       <nav class="app-footer__nav">
-        <a href="./index.html">
+        <a href="./index.html" aria-label="show quiz cards">
           <svg
             class="app-footer__svg"
             role="button"
@@ -75,7 +81,7 @@
               y2="17.1"
             /></svg
         ></a>
-        <a href="./bookmark.html">
+        <a href="./bookmark.html" aria-label="show bookmarked Cards">
           <svg
             class="app-footer__svg"
             role="button"
@@ -93,7 +99,7 @@
             />
           </svg>
         </a>
-        <a href="./form.html">
+        <a href="./form.html" aria-label="create card">
           <svg
             class="app-footer__svg"
             version="1.1"
@@ -134,7 +140,7 @@
             /></svg
         ></a>
 
-        <a href="#">
+        <a href="./profile.html" aria-label="profile">
           <svg
             class="app-footer__svg"
             role="button"

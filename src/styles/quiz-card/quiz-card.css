@@ -1,12 +1,16 @@
 .quiz-card {
-  border-radius: 5px;
-  border: black 2px solid;
+  border-radius: 10px;
+
+  /* border: black 2px solid; */
+  background: #fff;
+  box-shadow: 3px 5px 7px #808080;
   display: grid;
   padding: 16px;
   justify-content: center;
   margin-top: 16px;
   position: relative;
   row-gap: 16px;
+  letter-spacing: 0.05em;
 }
 
 .quiz-card > * {
@@ -34,7 +38,7 @@
 }
 
 .quiz-card__flag--style-svg {
-  fill: rgb(212, 69, 69);
+  fill: #4bacb8;
   stroke-miterlimit: 10;
   stroke: #000;
 }
@@ -51,9 +55,6 @@
 }
 
 .quiz-card__button {
-  background: var(--bg-color-secondary);
-  border-radius: 10px;
-  box-shadow: 1px 3px 5px black;
   justify-self: center;
   width: 18ch;
 }
@@ -66,12 +67,14 @@
 }
 
 .quiz-card__tag-list > li {
-  background: var(--bg-color-secondary);
+  background-image: var(--bg-color-gradient);
+  border-top: 2px solid rgb(250, 250, 240);
+  border-left: 2px solid rgb(250, 250, 240);
   border-radius: 7px;
   box-shadow: 1px 3px 5px black;
-  color: var(--color-primary);
+  color: var(--color-black);
   font-size: 0.75rem;
-  font-weight: 300;
+  font-weight: 500;
   height: 3.5ch;
   list-style: none;
   padding: 2px 7px;

@@ -1,6 +1,7 @@
 :root {
-  --color-white: #fefefe;
+  --color-white: #ede7f6;
   --color-black: #111;
-  --color-primary: #333;
+  --color-primary: #4bacb8;
   --bg-color-secondary: goldenrod;
+  --bg-color-gradient: linear-gradient(0deg, #18638f 0%, #97ddd5 100%);
 }

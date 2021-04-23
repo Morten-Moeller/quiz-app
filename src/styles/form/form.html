@@ -1,30 +1,37 @@
 <form class="form" action="">
   <fieldset class="form__fieldset">
-    <label class="form__question" for="new-question">Add new question</label>
-    <textarea
-      class="form__textarea"
-      id="new-question"
-      name="new-question"
-      rows="5"
-      cols="33"
-    ></textarea>
+    <label class="form__question"
+      >Add new question
+      <textarea
+        class="form__textarea"
+        name="new-question"
+        rows="5"
+        cols="33"
+        required
+      ></textarea>
+    </label>
 
-    <label for="new-answer">Add new answer </label>
-    <textarea
-      class="form__textarea"
-      id="new-answer"
-      name="new-answer"
-      rows="5"
-      cols="33"
-    ></textarea>
+    <label
+      >Add new answer
+      <textarea
+        class="form__textarea"
+        name="new-answer"
+        rows="5"
+        cols="33"
+        required
+      ></textarea>
+    </label>
 
     <label for="input-tags">Add tags</label>
     <input
+      id="input-tags"
       class="form__textarea"
       type="text"
-      id="input-tags"
       name="input-tags"
+      required
     />
+    <button class="form__button button-style" aria-label="Submit new quiz card">
+      Submit
+    </button>
   </fieldset>
-  <button class="form__button" aria-label="Submit new quiz card">Submit</button>
 </form>

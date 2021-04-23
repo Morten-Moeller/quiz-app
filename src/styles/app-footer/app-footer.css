@@ -1,18 +1,19 @@
 .app-footer {
-  background: var(--color-primary);
+  background: linear-gradient(170deg, #474c4e 0%, #2d3233 100%);
   color: var(--color-white);
   grid-column: 1 / -1;
 }
 
 .app-footer__nav {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
 }
 
 .app-footer__svg {
   height: 50px;
   padding-top: 5px;
   width: 50px;
+  margin: 5px 15px;
 }
 
 .app-footer__icon-color {
@@ -23,12 +24,6 @@
 }
 
 .app-footer__svg--active {
-  fill: rgb(212, 69, 69);
-  stroke: #1d1d1b;
-  stroke-miterlimit: 10;
-}
-
-.st3 {
   fill: rgb(212, 69, 69);
   stroke: #1d1d1b;
   stroke-miterlimit: 10;
