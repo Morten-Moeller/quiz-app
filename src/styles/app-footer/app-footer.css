@@ -1,5 +1,5 @@
 .app-footer {
-  background: linear-gradient(170deg, #474c4e 0%, #2d3233 100%);
+  background: var(--color-bg-head-nav);
   color: var(--color-white);
   grid-column: 1 / -1;
 }
@@ -17,14 +17,11 @@
 }
 
 .app-footer__icon-color {
-  /* SVG icon colores */
-  fill: #fff;
+  fill: var(--color-icon);
   stroke: #1d1d1b;
   stroke-miterlimit: 10;
 }
 
 .app-footer__svg--active {
-  fill: rgb(212, 69, 69);
-  stroke: #1d1d1b;
-  stroke-miterlimit: 10;
+  fill: var(--color-icon-active);
 }
