@@ -5,9 +5,8 @@ const body = document.querySelector('body')
 
 buttonDarkmode.addEventListener('click', () => {
   body.classList.toggle('darkmode')
-  body.classList.contains('darkmode')
-    ? (buttonDarkmode.innerHTML = '🌞')
-    : (buttonDarkmode.innerHTML = '🌚')
+  const darkmodeIcon = body.classList.contains('darkmode') ? '🌞' : '🌚'
+  buttonDarkmode.innerHTML = darkmodeIcon
 })
 
 // Navigation
