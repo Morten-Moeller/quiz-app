@@ -31,12 +31,12 @@
 }
 
 .profile__tag-list > li {
-  background: var(--bg-color-gradient);
+  background: var(--color-bg-tag);
   border-top: 2px solid rgb(250, 250, 240);
   border-left: 2px solid rgb(250, 250, 240);
   border-radius: 7px;
-  box-shadow: 1px 3px 5px black;
-  color: var(--color-primary);
+  box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.5);
+  color: var(--color-tag);
   font-size: 0.75rem;
   font-weight: 300;
   height: 3.5ch;

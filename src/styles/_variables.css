@@ -1,7 +1,20 @@
 :root {
-  --color-white: #ede7f6;
-  --color-black: #111;
-  --color-primary: #4bacb8;
-  --bg-color-secondary: goldenrod;
-  --bg-color-gradient: linear-gradient(0deg, #18638f 0%, #97ddd5 100%);
+  /* New color structure for easyer changings */
+  --color-bg: #ede7f6;
+  --color-general: #111;
+  --color-bg-button: linear-gradient(0deg, #18638f 0%, #97ddd5 100%);
+  --color-bg-head-nav: linear-gradient(170deg, #474c4e 0%, #2d3233 100%);
+  --color-button: #111;
+  --color-bg-button: linear-gradient(0deg, #18638f 0%, #97ddd5 100%);
+  --color-bg-tag: linear-gradient(0deg, #18638f 0%, #97ddd5 100%);
+  --color-tag: #111;
+  --color-bg-icons: #4bacb8;
+  --color-icons: #fff;
+  --color-icon-active: #4bacb8;
+  --color-h2: #4bacb8;
+  --color-bg-main: #ede7f6;
+  --color-bg-card: #fff;
+  --color-bg-bookmark: #fff;
+  --color-bg-bookmark-active: #4bacb8;
+  --color-bg-header-footer: linear-gradient(170deg, #474c4e 0%, #2d3233 100%);
 }
