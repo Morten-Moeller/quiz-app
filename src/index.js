@@ -69,3 +69,11 @@ buttonProfile.addEventListener('click', () => {
   buttonForm.classList.remove('app-footer__svg--active')
   buttonProfile.classList.add('app-footer__svg--active')
 })
+
+//  Bookmark toggle
+
+const bookmark = document.querySelector('.quiz-card__flag')
+
+bookmark.addEventListener('click', () => {
+  bookmark.classList.toggle('quiz-card__flag--style-svg')
+})

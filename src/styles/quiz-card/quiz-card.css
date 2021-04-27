@@ -37,10 +37,8 @@
   stroke: #000;
 }
 
-.quiz-card__flag--style-svg {
-  fill: var(--color-bg-icons);
-  stroke-miterlimit: 10;
-  stroke: #000;
+.quiz-card__flag--style-svg > polygon {
+  fill: var(--color-bg-bookmark-active);
 }
 
 .quiz-card__heading {
