@@ -33,7 +33,7 @@
   --color-icon-active: #4bacb8;
   --color-h2: #4bacb8;
   --color-bg-main: #ede7f6;
-  --color-bg-card: #fff;
+  --color-bg-card: rgb(55, 55, 55);
   --color-bg-bookmark: #fff;
   --color-bg-bookmark-active: #4bacb8;
   --color-bg-header-footer: linear-gradient(170deg, #474c4e 0%, #2d3233 100%);
