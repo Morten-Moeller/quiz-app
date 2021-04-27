@@ -17,7 +17,7 @@
 }
 
 .app-footer__icon-color {
-  fill: var(--color-icon);
+  fill: var(--color-bg-icons);
   stroke: #1d1d1b;
   stroke-miterlimit: 10;
 }
