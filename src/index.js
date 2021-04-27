@@ -77,3 +77,10 @@ const bookmark = document.querySelector('.quiz-card__flag')
 bookmark.addEventListener('click', () => {
   bookmark.classList.toggle('quiz-card__flag--style-svg')
 })
+
+const buttonAnswer = document.querySelector('.quiz-card__button')
+const answer = document.querySelector('.quiz-card__answer')
+
+buttonAnswer.addEventListener('click', () => {
+  answer.classList.toggle('hidden')
+})
