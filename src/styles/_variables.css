@@ -8,12 +8,32 @@
   --color-bg-button: linear-gradient(0deg, #18638f 0%, #97ddd5 100%);
   --color-bg-tag: linear-gradient(0deg, #18638f 0%, #97ddd5 100%);
   --color-tag: #111;
-  --color-bg-icons: #4bacb8;
+  --color-bg-icons: #fff;
   --color-icons: #fff;
   --color-icon-active: #4bacb8;
   --color-h2: #4bacb8;
   --color-bg-main: #ede7f6;
   --color-bg-card: #fff;
+  --color-bg-bookmark: #fff;
+  --color-bg-bookmark-active: #4bacb8;
+  --color-bg-header-footer: linear-gradient(170deg, #474c4e 0%, #2d3233 100%);
+}
+
+.darkmode {
+  --color-bg: #3d3845;
+  --color-general: #fff;
+  --color-bg-button: linear-gradient(0deg, #18638f 0%, #97ddd5 100%);
+  --color-bg-head-nav: linear-gradient(170deg, #c7ccce 0%, #8b999b 100%);
+  --color-button: #111;
+  --color-bg-button: linear-gradient(0deg, #18638f 0%, #97ddd5 100%);
+  --color-bg-tag: linear-gradient(0deg, #18638f 0%, #97ddd5 100%);
+  --color-tag: #111;
+  --color-bg-icons: #fff;
+  --color-icons: #fff;
+  --color-icon-active: #4bacb8;
+  --color-h2: #4bacb8;
+  --color-bg-main: #ede7f6;
+  --color-bg-card: rgb(55, 55, 55);
   --color-bg-bookmark: #fff;
   --color-bg-bookmark-active: #4bacb8;
   --color-bg-header-footer: linear-gradient(170deg, #474c4e 0%, #2d3233 100%);

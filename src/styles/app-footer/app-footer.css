@@ -14,14 +14,11 @@
   padding-top: 5px;
   width: 50px;
   margin: 5px 15px;
-}
-
-.app-footer__icon-color {
-  fill: var(--color-icon);
+  fill: var(--color-bg-icons);
   stroke: #1d1d1b;
   stroke-miterlimit: 10;
 }
 
-.app-footer__svg--active {
+.app-footer__svg--active > svg {
   fill: var(--color-icon-active);
 }
