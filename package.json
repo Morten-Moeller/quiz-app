@@ -51,11 +51,18 @@
   "license": "ISC",
   "author": "Morten Möller",
   "contributors": [
-    {
-      "name": "Lene Frei"
-    },
-    {
-      "name": "Jerry Erbs"
-    }
-  ]
+    "Lene Frei",
+    "Jerry Erbs"
+  ],
+  "description": "## Template usage",
+  "main": ".eslintrc.js",
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Morten-Moeller/quiz-app.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Morten-Moeller/quiz-app/issues"
+  },
+  "homepage": "https://github.com/Morten-Moeller/quiz-app#readme"
 }
