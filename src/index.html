@@ -15,10 +15,10 @@
     <header class="app-header">
       <h1 class="app-header__heading">Quiz App</h1>
     </header>
-    <main class="main-app home-page">
+    <main data-js="home-page" class="main-app">
       <section class="quiz-card">
         <svg
-          class="quiz-card__flag"
+          class="quiz-card__flag quiz-card__flag--style-svg"
           aria-label="Add bookmark"
           role="button"
           version="1.1"
@@ -30,7 +30,6 @@
           xml:space="preserve"
         >
           <polygon
-            class="quiz-card__flag"
             points="9.18,15.6 9.18,59.46 23.28,45.37 37.79,59.87 37.79,15.6 "
           />
         </svg>
@@ -67,7 +66,6 @@
           xml:space="preserve"
         >
           <polygon
-            class="quiz-card__flag"
             points="9.18,15.6 9.18,59.46 23.28,45.37 37.79,59.87 37.79,15.6 "
           />
         </svg>
@@ -82,6 +80,76 @@
         <p class="quiz-card__text quiz-card__answer hidden">
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Est ducimus
           laboriosam voluptatem adipisci expedita unde ullam.
+        </p>
+        <ul class="quiz-card__tag-list">
+          <li>Item01</li>
+          <li>Item02</li>
+          <li>Item03</li>
+          <li>Item04</li>
+        </ul>
+      </section>
+      <section class="quiz-card">
+        <svg
+          class="quiz-card__flag quiz-card__flag--style-svg"
+          aria-label="Add bookmark"
+          role="button"
+          version="1.1"
+          xmlns="http://www.w3.org/2000/svg"
+          xmlns:xlink="http://www.w3.org/1999/xlink"
+          x="0px"
+          y="0px"
+          viewbox="0 0 40 60"
+          xml:space="preserve"
+        >
+          <polygon
+            points="9.18,15.6 9.18,59.46 23.28,45.37 37.79,59.87 37.79,15.6 "
+          />
+        </svg>
+        <h2 class="quiz-card__heading">Quiz Card</h2>
+        <p class="quiz-card__text">
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Est ducimus
+          laboriosam
+        </p>
+        <button class="quiz-card__button button-style">
+          Show answer here!
+        </button>
+        <p class="quiz-card__text quiz-card__answer hidden">
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Est ducimus
+          laboriosam voluptatem adipisci expedita unde ullam. Praesentium, hic
+          quae deserunt perferendis beatae quam repudiandae ea est, maiores
+          quibusdam dolores nesciunt?
+        </p>
+        <ul class="quiz-card__tag-list">
+          <li>Item01</li>
+          <li>Item02</li>
+          <li>Item03</li>
+          <li>Item04</li>
+        </ul>
+      </section>
+      <section class="quiz-card">
+        <svg
+          class="quiz-card__flag"
+          aria-label="Add bookmark"
+          role="button"
+          viewbox="0 0 40 60"
+        >
+          <polygon
+            points="9.18,15.6 9.18,59.46 23.28,45.37 37.79,59.87 37.79,15.6 "
+          />
+        </svg>
+        <h2 class="quiz-card__heading">Quiz Card</h2>
+        <p class="quiz-card__text">
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Est ducimus
+          laboriosam voluptatem adipisci expedita unde ullam.
+        </p>
+        <button class="quiz-card__button button-style">
+          Show answer here!
+        </button>
+        <p class="quiz-card__text quiz-card__answer hidden">
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Est ducimus
+          laboriosam voluptatem adipisci expedita unde ullam. Praesentium, hic
+          quae deserunt perferendis beatae quam repudiandae ea est, maiores
+          quibusdam dolores nesciunt?
         </p>
         <ul class="quiz-card__tag-list">
           <li>Item01</li>
@@ -92,10 +160,10 @@
       </section>
       <div class="whitespace"></div>
     </main>
-    <main class="main-app bookmark-page hidden">
+    <main data-js="bookmark-page" class="main-app hidden">
       <section class="quiz-card">
         <svg
-          class="quiz-card__flag"
+          class="quiz-card__flag quiz-card__flag--style-svg"
           aria-label="Add bookmark"
           role="button"
           version="1.1"
@@ -134,7 +202,7 @@
 
       <section class="quiz-card">
         <svg
-          class="quiz-card__flag"
+          class="quiz-card__flag quiz-card__flag--style-svg"
           aria-label="Add bookmark"
           role="button"
           viewbox="0 0 40 60"
@@ -166,7 +234,7 @@
       </section>
       <div class="whitespace"></div>
     </main>
-    <main class="main-app form-page hidden">
+    <main data-js="form-page" class="main-app hidden">
       <form class="form" action="">
         <fieldset class="form__fieldset">
           <label class="form__question"
@@ -208,7 +276,7 @@
         </fieldset>
       </form>
     </main>
-    <main class="main-app profile-page hidden">
+    <main data-js="profile-page" class="main-app hidden">
       <section class="profile">
         <button class="profile__button-darkmode">🌚</button>
         <img src="../../assets/anonymous.png" alt="" class="profile__image" />
@@ -232,9 +300,13 @@
     <footer class="app-footer">
       <nav class="app-footer__nav">
         <a
+          data-js="nav-button"
+          data-page="home-page"
+          data-button-name="button-home"
+          data-header="Quiz cards"
           class="button-home app-footer__svg--active"
           href="#"
-          aria-label="show quiz cards"
+          aria-label="Quiz cards"
         >
           <svg
             class="app-footer__svg"
@@ -250,7 +322,15 @@
             <polygon points="34.8,47.1 4.8,47.1 4.8,17.1 19.8,1.8 34.8,17.1 " />
             <line x1="4.8" y1="17.1" x2="34.8" y2="17.1" /></svg
         ></a>
-        <a class="button-bookmark" href="#" aria-label="show bookmarked Cards">
+        <a
+          data-js="nav-button"
+          data-page="home-page"
+          data-button-name="button-bookmark"
+          data-header="Bookmarked cards"
+          class="button-bookmark"
+          href="#"
+          aria-label="Bookmarked cards"
+        >
           <svg
             class="app-footer__svg"
             role="button"
@@ -267,7 +347,15 @@
             />
           </svg>
         </a>
-        <a class="button-form" href="#" aria-label="create card">
+        <a
+          data-js="nav-button"
+          data-page="form-page"
+          data-button-name="button-form"
+          data-header="Create cards"
+          class="button-form"
+          href="#"
+          aria-label="Create cards"
+        >
           <svg
             class="app-footer__svg"
             version="1.1"
@@ -298,7 +386,15 @@
             /></svg
         ></a>
 
-        <a class="button-profile" href="#" aria-label="profile">
+        <a
+          data-js="nav-button"
+          data-page="profile-page"
+          data-button-name="button-profile"
+          data-header="Profile page"
+          class="button-profile"
+          href="#"
+          aria-label="Profile page"
+        >
           <svg
             class="app-footer__svg"
             role="button"

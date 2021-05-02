@@ -11,6 +11,7 @@
   position: relative;
   row-gap: 16px;
   letter-spacing: 0.05em;
+  grid-template-rows: repeat(auto-fit);
 }
 
 .quiz-card > * {
@@ -19,10 +20,6 @@
 
 .quiz-card:first-child {
   margin-top: 16px;
-}
-
-.quiz-card:last-child {
-  margin-bottom: 16px;
 }
 
 .quiz-card__flag {
@@ -55,6 +52,7 @@
 .quiz-card__button {
   justify-self: center;
   width: 18ch;
+  height: 3ch;
 }
 
 .quiz-card__tag-list {
