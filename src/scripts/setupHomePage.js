@@ -1,7 +1,5 @@
-import getAllElements from './getAllElements'
-import getElement from './getElement'
-
-const navigationButtons = getAllElements('[data-js="nav-button"]')
+import getAllElements from '../utils/getAllElements'
+import getElement from '../utils/getElement'
 
 export default function setupHomePage() {
   const button = getElement('.button-home')
@@ -29,6 +27,7 @@ function headerChange(headerName) {
 }
 
 function buttonChange(buttonName) {
+  const navigationButtons = getAllElements('[data-js="nav-button"]')
   navigationButtons.forEach(button =>
     button.classList.remove('app-footer__svg--active')
   )

@@ -1,9 +1,9 @@
-import setupBookmarkPage from './utils/setupBookmarkPage'
-import setupBookmarks from './utils/setupBookmarks'
-import setupCards from './utils/setupCards'
-import setupDarkmode from './utils/setupDarkmode'
-import setupHomePage from './utils/setupHomePage'
-import setupNavigation from './utils/setupNavigation'
+import setupBookmarkPage from './scripts/setupBookmarkPage'
+import setupBookmarks from './scripts/setupBookmarks'
+import setupCards from './scripts/setupCards'
+import setupDarkmode from './scripts/setupDarkmode'
+import setupHomePage from './scripts/setupHomePage'
+import setupNavigation from './scripts/setupNavigation'
 
 setupBookmarks()
 setupCards()

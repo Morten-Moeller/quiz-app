@@ -1,4 +1,4 @@
-import getElement from './getElement'
+import getElement from '../utils/getElement'
 
 export default function setupDarkmode() {
   const buttonDarkmode = getElement('.profile__button-darkmode')

@@ -1,5 +1,5 @@
-import getAllElements from './getAllElements'
-import getElement from './getElement'
+import getAllElements from '../utils/getAllElements'
+import getElement from '../utils/getElement'
 
 export default function setupCards() {
   const buttonsAnswer = getAllElements('.quiz-card__button')

@@ -1,5 +1,5 @@
-import getAllElements from './getAllElements'
-import getElement from './getElement'
+import getAllElements from '../utils/getAllElements'
+import getElement from '../utils/getElement'
 
 export default function setupBookmarks() {
   const bookmarks = getAllElements('.quiz-card__flag')
